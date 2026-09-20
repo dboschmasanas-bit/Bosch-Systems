@@ -44,7 +44,7 @@ export function Nav() {
             <img
               src={`${import.meta.env.BASE_URL}favicon.png`}
               alt=""
-              className="w-5 h-5 object-contain group-hover:opacity-80 transition-opacity"
+              className="w-7 h-7 object-contain group-hover:opacity-80 transition-opacity"
             />
             <span className="h-3 w-px bg-[var(--border-bright)]" />
             <span className="text-[17px] font-semibold tracking-tight">Bosch Systems</span>
