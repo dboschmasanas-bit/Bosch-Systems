@@ -42,7 +42,7 @@ export function Nav() {
         <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-20 h-16 flex items-center justify-between">
           <a href="#top" className="flex items-center gap-3 group">
             <img
-              src="/favicon.png"
+              src={`${import.meta.env.BASE_URL}favicon.png`}
               alt=""
               className="w-5 h-5 object-contain group-hover:opacity-80 transition-opacity"
             />
