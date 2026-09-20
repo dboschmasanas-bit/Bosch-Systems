@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Menu, X, Globe } from 'lucide-react';
 import { useI18n, type Lang } from '@/i18n';
-import favicon from '@/favicon.png';
 
 export function Nav() {
   const { t, lang, setLang } = useI18n();
@@ -43,7 +42,7 @@ export function Nav() {
         <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-20 h-16 flex items-center justify-between">
           <a href="#top" className="flex items-center gap-3 group">
             <img
-              src={favicon}
+              src="/favicon.png"
               alt=""
               className="w-5 h-5 object-contain group-hover:opacity-80 transition-opacity"
             />
